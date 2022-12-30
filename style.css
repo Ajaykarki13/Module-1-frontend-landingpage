@@ -1,0 +1,33 @@
+.navbar a
+{
+    color: white ;
+}
+.navbar
+{
+border-bottom: 2px solid gray;
+}
+
+
+
+.home-wrapper
+{
+    background-color: black;
+    color:white;
+}
+.home-wrapper .container
+{
+    margin-top: 3rem;
+}
+
+.home-wrapper .container h1
+{
+    font-size: 120px;
+
+}
+.home-wrapper .container div>img
+{
+    width:60%;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
