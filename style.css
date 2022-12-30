@@ -23,7 +23,7 @@ border-bottom: 2px solid gray;
     background-color: black;
     color:white;
 }
-.home-wrapper .container-sm h1
+.home-wrapper h1
 {
     font-size: 110px;
     animation:float 5s ease-in-out infinite;
@@ -43,13 +43,13 @@ border-bottom: 2px solid gray;
     transform:translateY(10px)
 }
 }
-.home-wrapper .container-sm div>img
+.home-wrapper div>img
 {
-width:80%;
+   width:80%;
     margin-top:230px;
     margin-left: 120px;
 }
-.home-wrapper .container-sm .icon
+.home-wrapper  .icon
 {
     position:absolute;
    left:50%;
@@ -125,4 +125,35 @@ input[type="text"]::placeholder,input[type="email"]::placeholder
 {
 color:gray;
 
+}
+
+@media screen and (max-width:615px)
+{
+    .home-wrapper h1
+    {
+        font-size:5rem;
+        width:auto;
+
+    }
+    .home-wrapper div>img
+    {
+        height:10rem;
+        width:auto;
+        position:relative;
+        right:100px
+    }
+}
+@media screen and (min-width:769px) and (max-width:1201px)
+{
+    .home-wrapper h1
+    {
+        font-size:5rem;
+        width:auto;
+
+    }
+    .home-wrapper div>img
+    {
+        position:relative;
+        right:180px;
+    }
 }
