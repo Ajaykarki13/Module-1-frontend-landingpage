@@ -1,6 +1,7 @@
-*
+html
 {
-
+width:100vw;
+height:100vh;
     padding:0px;
     margin:0px;
 }
@@ -57,9 +58,9 @@ border-bottom: 2px solid gray;
 
 .about-wrapper .container-sm
 {
-    margin-top:4rem
+    margin-top:6rem
 }
-.about-wrapper .container-sm .aboutimg
+.about-wrapper .container .aboutimg
 {
     width:300px;
     height:250px;
@@ -127,24 +128,57 @@ color:gray;
 
 }
 
-@media screen and (max-width:615px)
+@media screen and (max-width:575px)
 {
+    .navbar .navbar-toggler{
+        position:relative;
+            right:120px;
+        }
     .home-wrapper h1
     {
-        font-size:5rem;
+        font-size:4rem;
         width:auto;
 
     }
     .home-wrapper div>img
     {
-        height:10rem;
+        height:12rem;
         width:auto;
         position:relative;
-        right:100px
+        right:150px
     }
 }
-@media screen and (min-width:769px) and (max-width:1201px)
+@media screen and (min-width:576px) and (max-width:767px)
 {
+    .navbar
+    {
+       width:90%;
+    }
+    .navbar .navbar-toggler{
+        position:relative;
+            right:100px;
+        }
+    .home-wrapper h1
+    {
+        font-size:4rem;
+        width:auto;
+
+    }
+    .home-wrapper div>img
+    {
+        position:relative;
+        right:170px;
+       bottom:20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1000px)
+{
+
+    .navbar .navbar-nav{
+        position:relative;
+            right:200px;
+        }
     .home-wrapper h1
     {
         font-size:5rem;
@@ -154,6 +188,8 @@ color:gray;
     .home-wrapper div>img
     {
         position:relative;
-        right:180px;
+        right:200px;
+       bottom:20px;
     }
+   
 }
