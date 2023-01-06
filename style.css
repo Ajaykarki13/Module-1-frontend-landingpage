@@ -58,9 +58,9 @@ border-bottom: 2px solid gray;
 
 .about-wrapper .container-sm
 {
-    margin-top:4rem
+    margin-top:2rem
 }
-.about-wrapper .container .aboutimg
+.about-wrapper .container-sm .aboutimg
 {
     width:300px;
     height:250px;
